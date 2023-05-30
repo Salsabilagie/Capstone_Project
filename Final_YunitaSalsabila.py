@@ -145,10 +145,10 @@ def TambahDaftar():
     2] Noncoffe 
     Masukan Jenis minuman baru : '''))
             if JenisNew == 1:
-                KategoriNew = 'Coffe'
+                JenisNew = 'Coffe'
                 break
             elif JenisNew == 2:
-                KategoriNew = 'Noncoffe'
+                JenisNew = 'Noncoffe'
                 break
             else:
                 print('Masukan angka sesuai pilihan kategori')
