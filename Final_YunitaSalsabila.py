@@ -108,21 +108,6 @@ def PrintStok():
             print(printFormat.format("", *list_value))
             break
 
-# # Sort stok descending
-# def PrintSortStokDesc():
-#     sortedStokMinuman = sorted(Minuman, key=lambda k: k['Stok'], reverse=True)
-#     print('''
-# ---------Daftar Stok Minuman--------
-# _________________________________________''')
-#     print('|Kode Minuman\t|Nama Produk\t|Barista\t|Stok\t|')
-#     for i in range(len(sortedStokMinuman)):
-#         print(f"|{sortedStokMinuman[i]['Kode Produk']}\t\t|{sortedStokMinuman[i]['Nama Produk']}\t|{sortedStokMinuman[i]['Barista']}\t|{sortedStokMinuman[i]['Stok']}\t|")
-#     print('\n')
-
-# # Sort stok ascending
-# def sortStokAsc(s):
-#     return s['Stok']
-
 # Validasi Menu 2 alphanumeric
 def validasiKodeNew(in1):
     if in1.isalnum():
