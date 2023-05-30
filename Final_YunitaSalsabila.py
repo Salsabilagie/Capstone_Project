@@ -29,7 +29,7 @@ Minuman = [
      'Nama Produk':'Matcha',
      'Barista':'Bayu',
      'Kategori':500,
-     'Jenis Minuman':'NonCof',
+     'Jenis Minuman':'NonCoffe',
      'Stok':27,
      'Harga':46000},
 
@@ -37,7 +37,7 @@ Minuman = [
      'Nama Produk':'RedVel',
      'Barista':'Ayu',
      'Kategori':350,
-     'Jenis Minuman':'NonCof',
+     'Jenis Minuman':'NonCoffe',
      'Stok':15,
      'Harga':36000},]
 
